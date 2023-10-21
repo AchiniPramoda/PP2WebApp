@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif
+}
+.centerd {
+    display: flex;
+    align-items: center;
+    justify-content: center 
+}
+
+.container-d {
+    min-height: 50vh;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center 
+}
+
+p {
+    margin: 0px
+}
+
+.card-d {
+    width: 280px;
+    height: 280px;
+    margin-right: 10px;
+    box-shadow: rgba(255, 255, 255, 0.342) 0px 3px 8px;
+    background: #0d1823;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    user-select: none;
+    z-index: 10;
+    overflow: hidden
+    
+}
+
+.card-d .backgroundEffect {
+    bottom: 0;
+    height: 0px;
+    width: 100%
+}
+
+.card-d:hover {
+    color: #fff;
+    transform: scale(1.025);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px
+}
+
+.card-d:hover .backgroundEffect {
+    bottom: 0;
+    height: 320px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background: #1b9ce3;
+    animation: popBackground 0.3s ease-in
+}
+
+@keyframes popBackground {
+    0% {
+        height: 20px;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%
+    }
+
+    50% {
+        height: 80px;
+        border-top-left-radius: 75%;
+        border-top-right-radius: 75%
+    }
+
+    75% {
+        height: 160px;
+        border-top-left-radius: 85%;
+        border-top-right-radius: 85%
+    }
+
+    100% {
+        height: 320px;
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%
+    }
+}
+
+.card-d .pic {
+    position: relative
+}
+
+.card-d .pic img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover
+}
+
+.card-d .date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 70px;
+    background-color: #1b9ce3;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    transition: all ease
+}
+
+.card-d .date .day {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.card-d .date .month,
+.card-d .date .year {
+    font-size: 10px
+}
+
+.card-d .text-muted {
+    font-size: 12px
+}
+
+.card-d:hover .text-muted {
+    color: #fff !important
+}
+
+.card-d .content {
+    padding: 0 20px
+}
+
+.card-d .content .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    background-color: #1b9ce3;
+    border-radius: 25px;
+    font-size: 12px;
+    border: none
+}
+
+.card-d:hover .content .btn {
+    background: #fff;
+    color: #1b9ce3;
+    box-shadow: #0000001a 0px 3px 5px
+}
+
+.card-d .content .btn .fas {
+    font-size: 10px;
+    padding-left: 5px
+}
+
+.card-d .content .foot .admin {
+    color: #1b9ce3;
+    font-size: 12px
+}
+
+.card-d:hover .content .foot .admin {
+    color: #fff
+}
+
+.card-d .content .foot .icon {
+    font-size: 12px
+}
