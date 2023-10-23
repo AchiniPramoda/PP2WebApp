@@ -25,8 +25,18 @@
     padding: 20px 0;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    opacity: 0.5;
+    transition: 0.5s;
+
 }
+
+.containerPS:hover {
+    opacity: 1.3;
+  color: #ffffff;
+    
+}
+
 
 .galleryLS {
     --size: min(387px, 400px);
@@ -35,12 +45,12 @@
     justify-content: center,
         transform: translate(-50%, -50%);
     box-shadow:
-        0 0 10px #0002,
-        0 20px 40px -20px #0004;
+        0 0 10px  rgba(240, 248, 255, 0.515),
+        0 20px 40px -20px  rgba(240, 248, 255, 0.29);
     width: var(--size);
     height: var(--size);
-    background: #fff;
-    border: 6px solid #fff;
+    background: #0d1823;
+    border: 6px solid #0d1823;
     display: grid;
     grid-template-rows: 50% 50%;
     grid-template-columns: 1fr 1fr;

@@ -1,0 +1,12 @@
+.navCus{
+ position: fixed;
+ z-index: 999;
+}
+.herderCus:hover {
+    opacity: 0.3;
+  color: #ffffff;  
+}
+.herderCus{
+    position: fixed;
+    z-index: 999;
+   }

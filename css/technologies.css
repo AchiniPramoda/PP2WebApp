@@ -16,9 +16,7 @@
     width: 20%;
     height: 100%;
     object-fit: cover;
-
     -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(239, 236, 236, 0.267));
-
     transform-origin: center;
     transform: perspective(800px) rotateY(25deg);
     transition: 0.5s;
