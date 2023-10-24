@@ -27,8 +27,8 @@
     align-items: center;
     justify-content: center;
     opacity: 0.5;
-        transition: 0.5s;
-    
+    transition: 0.5s;
+
 
 }
 
@@ -36,10 +36,11 @@
     opacity: 1.3;
     color: #ffffff;
 }
+
 .briteLS:hover {
     opacity: 1.3;
-        color: #ffffff;
-    }
+    color: #ffffff;
+}
 
 
 .galleryLS {
@@ -49,8 +50,8 @@
     justify-content: center,
         transform: translate(-50%, -50%);
     box-shadow:
-        0 0 10px  rgba(240, 248, 255, 0.515),
-        0 20px 40px -20px  rgba(240, 248, 255, 0.29);
+        0 0 10px rgba(240, 248, 255, 0.515),
+        0 20px 40px -20px rgba(240, 248, 255, 0.29);
     width: var(--size);
     height: var(--size);
     background: #0d1823;
