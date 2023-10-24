@@ -27,15 +27,19 @@
     align-items: center;
     justify-content: center;
     opacity: 0.5;
-    transition: 0.5s;
+        transition: 0.5s;
+    
 
 }
 
 .containerPS:hover {
     opacity: 1.3;
-  color: #ffffff;
-    
+    color: #ffffff;
 }
+.briteLS:hover {
+    opacity: 1.3;
+        color: #ffffff;
+    }
 
 
 .galleryLS {
