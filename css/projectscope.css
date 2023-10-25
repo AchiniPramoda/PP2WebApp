@@ -37,15 +37,6 @@
     color: #ffffff;
 }
 
-.briteLS{
- padding-top: 90px;
-}
-
-.briteLS:hover+ .containerPS {
-    opacity: 1.3;
-    color: #ffffff;
-}
-
 
 .galleryLS {
     --size: min(387px, 400px);

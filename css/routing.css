@@ -1,0 +1,9 @@
+.briteAndRoutbadding {
+    padding-top: 90px;
+}
+
+.briteAndRoutbadding:hover+.containerPS {
+    opacity: 1.3;
+    color: #ffffff;
+}
+
