@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
     <meta charset="utf-8">
-    <title>FASTER - Logistics Company Website Template</title>
+    <i class="bi bi-eye"></i>
+    <title>
+        test - Bliend App
+    </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -24,101 +26,82 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-
-    <!--CSS-->
+    <link href="css/header.css" rel="stylesheet">
     <link href="css/download.css" rel="stylesheet">
     <link href="css/technologies.css" rel="stylesheet">
     <link href="css/projectscope.css" rel="stylesheet">
+    <style>
+        .activeNav {
+    color: rgb(252, 252, 253); /* Change the color to indicate the active link */
+    font-weight: bold; /* Add bold font to indicate the active link */
+}
 
+    </style>
 </head>
-
 <body>
-
-
-    <!-- Technology Start -->
-    <div class="container">
-        <div class="text-center pb-2">
-            <h6 class="text-primary text-uppercase font-weight-bold">Project Scope</h6>
-            <h1 class="mb-4">Build Project scope here for blind </h1>
-            <h1 class="mb-4"> Literature Survey</h1>
-        </div>
-    </div>
-    <div class="containerPS">
-        <div class="containerPsLsLEFT">
-            <div>
-                <div class="galleryLS">
-                    <img src="./img/blind-person-with-mobilw.jpg" alt="" />
-                    <img src="./img/blind-people-sdog.jpg" alt="" />
-                    <img src="./img/roboEye.jpg" alt="" />
-                    <img src="./img/gfgvhb.png" alt="" />
-                    <img src="./img/carm enfirent ment.jpg" alt="" />
-                    <img src="./img/blind-with-dog.jpg" alt="" />
-                    <img src="./img/dog.jpg" alt="" />
+       <!-- Navbar Start -->
+       <div class="container-fluid p-0 navCus">
+        <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-3">
+            <a href="index.html" class="navbar-brand ml-lg-3">
+                <h1 class=" display-5 text-uppercase text-primary">
+                    <img src="./img/nave_logo.png" class="flip-with-rotate-logo " alt="Faster Logo" width="50"
+                        height="50">
+                    <img src="./img/nave_logo-itel.png" alt="Faster Logo" width="105" height="50">
+                </h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
+                <div class="navbar-nav m-auto py-0">
+                    <a href="#header"  id="home-link">Home</a>
+                    <div Class= "navDrop">
+                        <ul> 
+                            <li><a href="#" class="anav" onclick="changeActiveLinkNav(this); return false;">Link</a></li>
+                           
+                          </li>
+                        </ul>
+                    </div>
+                    
+                    <a href="#header"  id="milestonnes-link">Milestones</a>
+                    <div Class= "navDrop">
+                        <ul> 
+                            <li><a href="#" id="downloads-link">Downloads</a>
+                            <ul>
+                              <li class="submenumenutitelN navFirstDrop"><a href="#literatureSurvey" id="document-link">Documents</a></li>
+                              <li class="submenumenutitelN navLastDrop"><a href="single.html" class="">Presentations</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                    </div>
+               
+                    <a href="aboutus.html" id="aboutus-link" >About</a>
+                    <a href="achievements.html" id="arhivements-link">Achievements</a>
+                    <a href="contactus.html" id="contactus-link">Contact</a>
                 </div>
+                <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block">Get A Quote</a>
             </div>
-        </div>
-        <div class="containerPsLsRIGHT">
-
-            <p class="mb-45">Visual impairment presents significant challenges to
-                individuals, affecting their independence and overall quality
-                of life. To address these challenges, the development of a
-                smart mobile accessibility application that incorporates
-                machine learning and image processing techniques has the
-                potential to empower blind individuals. This introduction
-                provides an overview of the importance of such an
-                application in improving the accessibility and autonomy of
-                visually impaired individuals.
-                Creating a smart mobile accessibility application is one
-                promising method to meet the demands of visually impaired
-                people. Badave, Jagtap, Kaovasia, et al., have explored the
-                use of an Android-based object detection system specifically
-                designed for visually impaired individuals [4]. By using the
-                power of technology, the application intends to improve the
-                independence and autonomy of blind people. The program
-                can understand and deliver auditory feedback on visual
-                content collected by the smartphone's camera by utilizing
-                machine learning algorithms and image processing
-                techniques.
-                Additionally, it provides auditory advice for navigation,
-                allowing people to explore unfamiliar places with ease. The
-                benefits of the smart mobile accessibility application are
-                numerous. It enables blind people to engage in previously
-                inaccessible activities such as exploring new areas, reading
-                menus, identifying objects, and accessing digital content. The
-                application improves their overall quality of life by giving
-                real-time audio feedback, fostering independence, self
-                reliance, and social inclusion.
-                Test results for the smart mobile accessibility application
-                have demonstrated its effectiveness in real-world scenarios.
-                Several studies have reported high accuracy in object
-                recognition, language interpretation, and navigation
-                assistance [4]. User feedback indicates increased confidence
-                and improved mobility for visually impaired individuals. </p>
-        </div>
+        </nav>
     </div>
-
-    <!-- Technology End -->
-
+    <!-- Navbar End -->
+    <ul>
+        <li><a href="#" class="anav" onclick="changeActiveLinkNav(this); return false;">Link 1</a></li>
+        <li><a href="#" class="anav" onclick="changeActiveLinkNav(this); return false;">Link 2</a></li>
+        <li><a href="#" class="anav" onclick="changeActiveLinkNav(this); return false;">Link 3</a></li>
+    </ul>
 </body>
+<script>
 
-<!-- Back to Top -->
-<a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+function changeActiveLinkNav(link) {
+    // Remove the "active" class from all links
+    var links = document.querySelectorAll('.anav');
+    links.forEach(function (item) {
+        item.classList.remove('activeNav');
+    });
 
+    // Add the "active" class to the clicked link
+    link.classList.add('activeNav');
+}
 
-<!-- JavaScript Libraries -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-<script src="lib/easing/easing.min.js"></script>
-<script src="lib/waypoints/waypoints.min.js"></script>
-<script src="lib/counterup/counterup.min.js"></script>
-<script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-<!-- Contact Javascript File -->
-<script src="mail/jqBootstrapValidation.min.js"></script>
-<script src="mail/contact.js"></script>
-
-<!-- Template Javascript -->
-<script src="js/main.js"></script>
-</body>
-
+</script>
 </html>

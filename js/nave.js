@@ -71,3 +71,14 @@ contactusLink.addEventListener("click", function () {
     contactusLink.classList.add("active-link");
 });
 
+const presebtetionLink = document.getElementById("pecente-link");
+const documentLink = document.getElementById("document-link");
+documentLink.addEventListener("click", function () {
+    milestonnesLink.classList.remove("active-link");
+    projectscopeLink.classList.remove("active-link");
+    homeLink.classList.remove("active-link");
+    downloadsLink.classList.add("active-link");
+    aboutusLink.classList.remove("active-link");
+    arhivementsLink.classList.remove("active-link");
+    contactusLink.classList.remove("active-link");
+});
