@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <i class="bi bi-eye"></i>
@@ -32,76 +33,34 @@
     <link href="css/projectscope.css" rel="stylesheet">
     <style>
         .activeNav {
-    color: rgb(252, 252, 253); /* Change the color to indicate the active link */
-    font-weight: bold; /* Add bold font to indicate the active link */
-}
+            color: rgb(252, 252, 253);
+            /* Change the color to indicate the active link */
+            font-weight: bold;
+            /* Add bold font to indicate the active link */
+        }
 
+        .aclass:hover {
+            /* Define the styles for the hover state of .aclass */
+            background-color: lightgray;
+            cursor: pointer;
+            /* Optional: Change the cursor to a pointer on hover */
+        }
+
+        .aclass:hover+.bclass {
+            /* Change the color of .bclass when .aclass is hovered */
+            color: blue;
+        }
     </style>
 </head>
+
 <body>
-       <!-- Navbar Start -->
-       <div class="container-fluid p-0 navCus">
-        <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-3">
-            <a href="index.html" class="navbar-brand ml-lg-3">
-                <h1 class=" display-5 text-uppercase text-primary">
-                    <img src="./img/nave_logo.png" class="flip-with-rotate-logo " alt="Faster Logo" width="50"
-                        height="50">
-                    <img src="./img/nave_logo-itel.png" alt="Faster Logo" width="105" height="50">
-                </h1>
-            </a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
-                <div class="navbar-nav m-auto py-0">
-                    <a href="#header"  id="home-link">Home</a>
-                    <div Class= "navDrop">
-                        <ul> 
-                            <li><a href="#" class="anav" onclick="changeActiveLinkNav(this); return false;">Link</a></li>
-                           
-                          </li>
-                        </ul>
-                    </div>
-                    
-                    <a href="#header"  id="milestonnes-link">Milestones</a>
-                    <div Class= "navDrop">
-                        <ul> 
-                            <li><a href="#" id="downloads-link">Downloads</a>
-                            <ul>
-                              <li class="submenumenutitelN navFirstDrop"><a href="#literatureSurvey" id="document-link">Documents</a></li>
-                              <li class="submenumenutitelN navLastDrop"><a href="single.html" class="">Presentations</a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                    </div>
-               
-                    <a href="aboutus.html" id="aboutus-link" >About</a>
-                    <a href="achievements.html" id="arhivements-link">Achievements</a>
-                    <a href="contactus.html" id="contactus-link">Contact</a>
-                </div>
-                <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block">Get A Quote</a>
-            </div>
-        </nav>
-    </div>
-    <!-- Navbar End -->
-    <ul>
-        <li><a href="#" class="anav" onclick="changeActiveLinkNav(this); return false;">Link 1</a></li>
-        <li><a href="#" class="anav" onclick="changeActiveLinkNav(this); return false;">Link 2</a></li>
-        <li><a href="#" class="anav" onclick="changeActiveLinkNav(this); return false;">Link 3</a></li>
+    <!-- Navbar Start -->
+
+    <div class="aclass">Hover over me</div>
+    <div class="bclass">I will change color</div>
+
+
     </ul>
 </body>
-<script>
 
-function changeActiveLinkNav(link) {
-    // Remove the "active" class from all links
-    var links = document.querySelectorAll('.anav');
-    links.forEach(function (item) {
-        item.classList.remove('activeNav');
-    });
-
-    // Add the "active" class to the clicked link
-    link.classList.add('activeNav');
-}
-
-</script>
 </html>
