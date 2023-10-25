@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <i class="bi bi-eye"></i>
     <title>
-        test - Bliend App
+        Vison Mate - Bliend App
     </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
@@ -27,40 +27,89 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/routing.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
     <link href="css/download.css" rel="stylesheet">
     <link href="css/technologies.css" rel="stylesheet">
     <link href="css/projectscope.css" rel="stylesheet">
-    <style>
-        .activeNav {
-            color: rgb(252, 252, 253);
-            /* Change the color to indicate the active link */
-            font-weight: bold;
-            /* Add bold font to indicate the active link */
-        }
+    <link href="css/researchgap.css" rel="stylesheet">
+    <link href="css/routing.css" rel="stylesheet">
 
-        .aclass:hover {
-            /* Define the styles for the hover state of .aclass */
-            background-color: lightgray;
-            cursor: pointer;
-            /* Optional: Change the cursor to a pointer on hover */
-        }
-
-        .aclass:hover+.bclass {
-            /* Change the color of .bclass when .aclass is hovered */
-            color: blue;
-        }
-    </style>
 </head>
 
 <body>
-    <!-- Navbar Start -->
+    <!-- Research Gap stat -->
+    <div id="researchgap" class="briteAndRoutbadding">
+        <div class="container">
+            <div class="text-center pb-2">
+                <h1 class="mb-4"> Research Gap</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container_cus">
+        <div class="mainRG">
 
-    <div class="aclass">Hover over me</div>
-    <div class="bclass">I will change color</div>
+
+            <ul class="cardsRG">
+                <li class="cardsRG_item">
+                    <div class="cardRG">
+                        <div class="cardRG_image"><img class="imgRG" src="https://picsum.photos/500/300/?image=10">
+                        </div>
+                        <div class="cardRG_content">
+                            <h2 class="cardRG_title">Card Grid Layout</h2>
+                            <p class="cardRG_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                            <button class="btnRG card_btnRG">Read More</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="cardsRG_item">
+                    <div class="cardRG">
+                        <div class="cardRG_image"><img class="imgRG" src="https://picsum.photos/500/300/?image=10">
+                        </div>
+                        <div class="cardRG_content">
+                            <h2 class="cardRG_title">Card Grid Layout</h2>
+                            <p class="cardRG_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                            <button class="btnRG card_btnRG">Read More</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="cardsRG_item">
+                    <div class="cardRG">
+                        <div class="cardRG_image"><img class="imgRG" src="https://picsum.photos/500/300/?image=10">
+                        </div>
+                        <div class="cardRG_content">
+                            <h2 class="cardRG_title">Card Grid Layout</h2>
+                            <p class="cardRG_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                            <button class="btnRG card_btnRG">Read More</button>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+    </div>
+    <!-- Research Gap end -->
+    <!-- Back to Top -->
+    <a href="#" class="btnRG btnRG-lg btnRG-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
 
-    </ul>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/nave.js"></script>
 </body>
 
 </html>
