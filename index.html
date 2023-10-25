@@ -44,7 +44,6 @@
                     <img src="./img/nave_logo.png" class="flip-with-rotate-logo " alt="Faster Logo" width="50"
                         height="50">
                     <img src="./img/nave_logo-itel.png" alt="Faster Logo" width="105" height="50">
-                    <i>Vision Mate</i>
                 </h1>
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -52,29 +51,37 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
                 <div class="navbar-nav m-auto py-0">
-                    <a href="#header" class="nav-item nav-link active">Home</a>
-                    <div class="nav-item dropdown">
-                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Project Scope</a>
-                        <div class="dropdown-menu rounded-0 m-0">
-                            <a href="#literatureSurvey" class="">Literature Survey</a>
-                            <a href="single.html" class="dropdown-item">Research Gap</a>
-                            <a href="blog.html" class="dropdown-item">Research Problem & Solution</a>
-                            <a href="single.html" class="dropdown-item">Research Objectives</a>
-                            <a href="blog.html" class="dropdown-item">Methodology</a>
-                            <a href="single.html" class="dropdown-item">Technologies</a>
-                        </div>
+                    <a href="#header"  id="home-link">Home</a>
+                    <div Class= "navDrop">
+                        <ul> 
+                            <li><a href="#" id="projectscope-link">Project_Scope</a>
+                            <ul>
+                              <li class="submenumenutitelN navFirstDrop"><a href="#literatureSurvey" class="">Literature Survey</a></li>
+                              <li class="submenumenutitelN"><a href="single.html" class="">Research Gap</a></li>
+                              <li class="submenumenutitelN"><a href="blog.html" class="">Research Problem & Solution</a></li>
+                              <li class="submenumenutitelN"><a href="single.html" class="">Research Objectives</a></li>
+                              <li class="submenumenutitelN"><a href="blog.html" class="">Methodology</a></li>
+                              <li class="submenumenutitelN navLastDrop"><a href="single.html" class="">Technologies</a></li>
+                            </ul>
+                          </li>
+                        </ul>
                     </div>
-                    <a href="#header" class="nav-item nav-link">Milestones</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Downloads</a>
-                        <div class="dropdown-menu rounded-0 m-0">
-                            <a href="blog.html" class="dropdown-item">Documents</a>
-                            <a href="single.html" class="dropdown-item">Presentations</a>
-                        </div>
+                    
+                    <a href="#header"  id="milestonnes-link">Milestones</a>
+                    <div Class= "navDrop">
+                        <ul> 
+                            <li><a href="#" id="downloads-link">Downloads</a>
+                            <ul>
+                              <li class="submenumenutitelN navFirstDrop"><a href="#literatureSurvey" class="">Documents</a></li>
+                              <li class="submenumenutitelN navLastDrop"><a href="single.html" class="">Presentations</a></li>
+                            </ul>
+                          </li>
+                        </ul>
                     </div>
-                    <a href="aboutus.html" class="nav-item nav-link">About Us</a>
-                    <a href="achievements.html" class="nav-item nav-link">Achievements</a>
-                    <a href="contactus.html" class="nav-item nav-link">Contact Us</a>
+               
+                    <a href="aboutus.html" id="aboutus-link" >About</a>
+                    <a href="achievements.html" id="arhivements-link">Achievements</a>
+                    <a href="contactus.html" id="contactus-link">Contact</a>
                 </div>
                 <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block">Get A Quote</a>
             </div>
@@ -1387,6 +1394,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/nave.js"></script>
 </body>
 
 </html>

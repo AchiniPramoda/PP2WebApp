@@ -3,6 +3,113 @@
     z-index: 999;
 }
 
+.active-link {
+    color: rgb(255, 255, 255);
+    /* Style for active link */
+}
+
+
+.navDrop {
+
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    background: #01acc2;
+}
+
+.navDrop ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    display: inline-block;
+}
+
+.navDrop ul li {
+    position: relative;
+    margin: 0 0 0 0;
+
+    display: inline-block;
+}
+
+.navDrop li>a:after {
+    content: '»';
+}
+
+/* Change this in order to change the Dropdown symbol */
+
+.navDrop li>a:only-child:after {
+    content: '';
+}
+
+.navDrop ul li a {
+
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    height: 00px;
+    transition: .3s;
+}
+
+.navDrop .submenumenutitelN {
+
+    display: inline-block;
+    color: #01acc2;
+    background-color: #ffffff;
+    text-decoration: none;
+    min-width: 200%;
+    max-lines: 1;
+}
+
+.navDrop ul li a:hover {
+    opacity: 1;
+    background-color: #01acc2;
+    color: #ffffff;
+    min-width: 100%;
+    max-lines: 1;
+}
+
+
+.navDrop ul li ul {
+    display: none;
+    position: absolute;
+    left: 2px;
+    ;
+    background: #e2e5e6;
+    float: left;
+}
+
+.navDrop ul li ul li {
+    width: 50%;
+    border-bottom: 1px solid #01acc2;
+
+    border-top: 1px solid #01acc2;
+    border-left: 1px solid #01acc2;
+    border-right:1px solid #01acc2;
+   
+
+}
+.navDrop ul li ul .navLastDrop{
+    border-radius: 0px 0px 11px 10px;
+}
+.navDrop ul li .navLastDrop a:hover{
+    border-radius: 0px 0px 10px 10px ;
+    
+}
+.navDrop ul li ul .navFirstDrop{
+    border-radius: 10px 10px 0px 0px;
+}
+.navDrop ul li .navFIrstDrop a:hover{
+    border-radius: 10px 10px 0px 0px;
+    
+}
+.navDrop ul li:hover ul {
+    display: block;
+    min-height: fit-content;
+    width: min-content;
+    background-color: #3bbdce00;
+}
+
 .heder_img {
     min-height: 670px;
 }
@@ -96,11 +203,12 @@
 }
 
 .btnH {
-background-color: #67c4f0d7;
+    background-color: #67c4f0d7;
     margin-top: 40px;
     transition: 0.5s;
 }
-.btnH:hover{
-   padding: 10px;
-   border-radius: 10px;
+
+.btnH:hover {
+    padding: 10px;
+    border-radius: 10px;
 }

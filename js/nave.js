@@ -1,0 +1,73 @@
+
+const homeLink = document.getElementById("home-link");
+const projectscopeLink = document.getElementById("projectscope-link");
+const milestonnesLink = document.getElementById("milestonnes-link");
+const aboutusLink = document.getElementById("aboutus-link");
+const downloadsLink = document.getElementById("downloads-link");
+const arhivementsLink = document.getElementById("arhivements-link");
+const contactusLink = document.getElementById("contactus-link");
+
+homeLink.addEventListener("click", function () {
+    homeLink.classList.add("active-link");
+    projectscopeLink.classList.remove("active-link");
+    milestonnesLink.classList.remove("active-link");
+    downloadsLink.classList.remove("active-link");
+    aboutusLink.classList.remove("active-link");
+    arhivementsLink.classList.remove("active-link");
+    contactusLink.classList.remove("active-link");
+});
+projectscopeLink.addEventListener("click", function () {
+    projectscopeLink.classList.add("active-link");
+    homeLink.classList.remove("active-link");
+    milestonnesLink.classList.remove("active-link");
+    downloadsLink.classList.remove("active-link");
+    aboutusLink.classList.remove("active-link");
+    arhivementsLink.classList.remove("active-link");
+    contactusLink.classList.remove("active-link");
+});
+milestonnesLink.addEventListener("click", function () {
+    milestonnesLink.classList.add("active-link");
+    projectscopeLink.classList.remove("active-link");
+    homeLink.classList.remove("active-link");
+    downloadsLink.classList.remove("active-link");
+    aboutusLink.classList.remove("active-link");
+    arhivementsLink.classList.remove("active-link");
+    contactusLink.classList.remove("active-link");
+});
+aboutusLink.addEventListener("click", function () {
+    milestonnesLink.classList.remove("active-link");
+    projectscopeLink.classList.remove("active-link");
+    homeLink.classList.remove("active-link");
+    downloadsLink.classList.remove("active-link");
+    aboutusLink.classList.add("active-link");
+    arhivementsLink.classList.remove("active-link");
+    contactusLink.classList.remove("active-link");
+});
+downloadsLink.addEventListener("click", function () {
+    milestonnesLink.classList.remove("active-link");
+    projectscopeLink.classList.remove("active-link");
+    homeLink.classList.remove("active-link");
+    downloadsLink.classList.add("active-link");
+    aboutusLink.classList.remove("active-link");
+    arhivementsLink.classList.remove("active-link");
+    contactusLink.classList.remove("active-link");
+});
+arhivementsLink.addEventListener("click", function () {
+    milestonnesLink.classList.remove("active-link");
+    projectscopeLink.classList.remove("active-link");
+    homeLink.classList.remove("active-link");
+    downloadsLink.classList.remove("active-link");
+    aboutusLink.classList.remove("active-link");
+    arhivementsLink.classList.add("active-link");
+    contactusLink.classList.remove("active-link");
+});
+contactusLink.addEventListener("click", function () {
+    milestonnesLink.classList.remove("active-link");
+    projectscopeLink.classList.remove("active-link");
+    homeLink.classList.remove("active-link");
+    downloadsLink.classList.remove("active-link");
+    aboutusLink.classList.remove("active-link");
+    arhivementsLink.classList.remove("active-link");
+    contactusLink.classList.add("active-link");
+});
+
