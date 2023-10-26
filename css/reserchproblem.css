@@ -37,5 +37,8 @@
     clip-path: circle(var(--_c,55% at 30% 30%));
     place-self: end;
   }
+  .rporobText{
+    text-align: justify;
+  }
   
   
