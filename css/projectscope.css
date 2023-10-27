@@ -56,6 +56,8 @@
     grid-template-columns: 1fr 1fr;
     overflow: hidden;
     gap: 6px;
+    height: 94%;
+    width: 100%;
 }
 
 .galleryLS img {
@@ -195,4 +197,7 @@
         growHorizontal 2s 20s 1,
         moveHorizontal 16s 21.5s 1;
     animation-fill-mode: forwards;
+}
+.medologycus{
+box-shadow: -1px -20px 40px -14px rgb(243, 244, 245)
 }

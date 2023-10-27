@@ -24,3 +24,22 @@
     color: #ffffff;
 }
 
+.container_cus1{
+  
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.container_cus1:hover{
+    opacity: 1.3;
+    color: #ffffff;
+}
+.briteAndRoutbadding1 {
+    padding-top: 90px;
+}
+.briteAndRoutbadding1:hover+.container_cus1 {
+    opacity: 1.3;
+    color: #ffffff;
+}
+.margincus{
+margin: 10px;
+}
