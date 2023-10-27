@@ -122,3 +122,21 @@
     margin-top: 35px;
     text-align: center;
 }
+
+.pogresbar{
+    background-color: #01acc2;
+}
+.pogresbarnew{
+    background-color: #01c20b;
+}
+.pogresbarconer{
+ border-radius: 15px;
+}
+.timelinebref{
+    transition: 0.5s;
+}
+.timelinebref:hover{
+    opacity: 1.3;
+    background-color: black;
+    color: #ffffff;
+}
