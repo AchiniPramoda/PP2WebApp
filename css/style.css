@@ -9731,6 +9731,18 @@ p,
   z-index: 11;
   animation: action 1s infinite alternate;
 }
+.back-to-down {
+  z-index: 11;
+  animation: action2 1s infinite alternate;
+}
+@keyframes action2 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
 
 @keyframes action {
   0% {

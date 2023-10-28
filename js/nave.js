@@ -82,3 +82,23 @@ documentLink.addEventListener("click", function () {
     arhivementsLink.classList.remove("active-link");
     contactusLink.classList.remove("active-link");
 });
+
+// Function to scroll smoothly to a target
+function smoothScrollTo(target) {
+    const targetElement = document.querySelector(target);
+
+    if (targetElement) {
+        window.scrollTo({
+            top: targetElement.offsetTop,
+            behavior: 'smooth'
+        });
+    }
+}
+
+// Add event listeners to the button
+const scrollButton = document.querySelector('.smooth-scroll-button');
+if (scrollButton) {
+    scrollButton.addEventListener('click', () => {
+        smoothScrollTo('#target');
+    });
+}
