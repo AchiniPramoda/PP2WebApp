@@ -34,6 +34,8 @@
     <link href="css/projectscope.css" rel="stylesheet">
     <link href="css/researchgap.css" rel="stylesheet">
     <link href="css/reserchproblem.css" rel="stylesheet">
+    <link href="css/ressposiveness.css" rel="stylesheet">
+
 
 
 </head>
@@ -55,7 +57,7 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
                 <div class="navbar-nav m-auto py-0 navstcus">
-                    <a onclick="smoothScrollTo('#header')"  id="home-link">Home</a>
+                    <a onclick="smoothScrollTo('#header')" id="home-link">Home</a>
                     <div Class="navDrop ">
                         <ul>
                             <li><a onclick="smoothScrollTo('#literatureSurvey')"
@@ -74,8 +76,8 @@
                                             id="ro">Research
                                             Objectives</a>
                                     </li>
-                                    <li class="submenumenutitelN"><a onclick="smoothScrollTo('#methodology')"
-                                           id="m" class="">Methodology</a></li>
+                                    <li class="submenumenutitelN"><a onclick="smoothScrollTo('#methodology')" id="m"
+                                            class="">Methodology</a></li>
                                     <li class="submenumenutitelN navLastDrop"><a
                                             onclick="smoothScrollTo('#technologies')" id="t">Technologies</a></li>
                                 </ul>
@@ -117,7 +119,8 @@
                     <div class="mx-auto">
                         <div class="input-group">
                             <div class="input-group-append">
-                                <button class="btn btn-primary px-3 my btnH">LEARN MORE</button>
+                                <button class="btn btn-primary px-3 my btnH"
+                                    onclick="smoothScrollTo('#literatureSurvey')">LEARN MORE</button>
                             </div>
                         </div>
                     </div>
@@ -566,7 +569,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid py-5">
+    <div class=" tc container-fluid py-5">
         <div class="container ">
             <div class="row">
                 <div class="container">
@@ -602,6 +605,55 @@
             </div>
         </div>
     </div>
+    <div class="tc1">
+        <div class=" row">
+            <div class=" col-lg-3 col-md-6">
+                <img class="imgT" src="./img/Python-PNG-removebg-preview.png" alt="">
+                <h6 class="h6T">Python</h6>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img class="imgT" src="./img/flutter-removebg-preview.png" alt="">
+                <h6 class="h6T">Flutter</h6>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img class="imgT" src="./img/teserflow.png" alt="">
+                <h6 class="h6T">Tensorflow</h6>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img class="imgT" src="./img/colab.png" alt="">
+                <h6 class="h6T">Google Colab</h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-lg-3 col-md-6">
+                <img class="imgT" src="./img/yolo.png" alt="">
+                <h6 class="h6T">Yolo</h6>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img class="imgT" src="./img/opencvpng-removebg-preview.png" alt="">
+                <h6 class="h6T">OspenCv</h6>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img class="imgT" src="./img/flask-removebg-preview.png" alt="">
+                <h6 class="h6T">Flask API</h6>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img class="imgT" src="./img/fastAPI-removebg-preview.png" alt="">
+                <h6 class="h6T" style="margin-left:20px;">Fast API</h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-lg-3 col-md-6">
+                <img class="imgT" src="./img/cloud-removebg-preview.png" alt="">
+                <h6 class="h6T">Google Cloud</h6>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img class="imgT" src="./img/tesseract-ocr-removebg-preview.png" alt="">
+                <h6 class="h6T">PyTesseract</h6>
+            </div>
+        </div>
+    </div>
+
     <!-- Technology End -->
 
     <!-- project scoop end -->
@@ -968,6 +1020,7 @@
                                     </div>
                                 </div>
                             </div>
+                            
                             <div class="card-d border-0 me-lg-4 mb-lg-0 mb-4">
                                 <div class="backgroundEffect"></div>
                                 <div class="pic"> <img class="" src="./img/pptx.png" alt="">
@@ -1096,118 +1149,120 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team  position-relative overflow-hidden border-0 mb-5">
-                            <img class="card-img-top" src="img/team/1.jpg" alt="">
-                            <div class="card-body text-center p-0">
-                                <div class="team-text d-flex flex-column justify-content-center bg-secondary">
-                                    <h5 class="font-weight-bold">Chandrasena A.P.M </h5>
-                                    <span>
-                                        <div id="scrollt-container">
-                                            <div id="scrollt-text"><b class="teamcardsub">Group Leader </b>
-                                                <b class="teamcardsub2">Undergraduate
-                                                    :</b> Sri Lanka Institute of Information Technology
-                                                <b class="teamcardsub2">Department
-                                                    :</b> Software Engineering
-                                            </div>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="team  position-relative overflow-hidden border-0 mb-5">
+                        <img class="card-img-top" src="img/team/1.jpg" alt="">
+                        <div class="card-body text-center p-0">
+                            <div class="team-text d-flex flex-column justify-content-center bg-secondary">
+                                <h5 class="font-weight-bold">Chandrasena A.P.M </h5>
+                                <span>
+                                    <div id="scrollt-container">
+                                        <div id="scrollt-text"><b class="teamcardsub">Group Leader </b>
+                                            <b class="teamcardsub2">Undergraduate
+                                                :</b> Sri Lanka Institute of Information Technology
+                                            <b class="teamcardsub2">Department
+                                                :</b> Software Engineering
                                         </div>
-                                    </span>
-                                </div>
-                                <div class="team-social d-flex align-items-center justify-content-center bg-primary">
-                                    <a class="btn btn-outline-dark btn-social mr-2"
-                                        href="mailto:it20125066@my.sllit.lk"><i class="fas fa-envelope"></i></a>
-                                    <a class="btn btn-outline-dark btn-social mr-2"
-                                        href="https://www.linkedin.com/in/achini-chandrasena-17341821a/"><i
-                                            class="fab fa-linkedin-in"></i></a>
-                                </div>
+                                    </div>
+                                </span>
+                            </div>
+                            <div class="team-social d-flex align-items-center justify-content-center bg-primary">
+                                <a class="btn btn-outline-dark btn-social mr-2" href="mailto:it20125066@my.sllit.lk"><i
+                                        class="fas fa-envelope"></i></a>
+                                <a class="btn btn-outline-dark btn-social mr-2"
+                                    href="https://www.linkedin.com/in/achini-chandrasena-17341821a/"><i
+                                        class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team  position-relative overflow-hidden border-0 mb-5">
-                            <img class="card-img-top" src="img/team/2.png" alt="">
-                            <div class="card-body text-center p-0">
-                                <div class="team-text d-flex flex-column justify-content-center bg-secondary">
-                                    <h5 class="font-weight-bold">Hemasiri S.W.H.P</h5>
-                                    <span>
-                                        <div id="scrollt-container">
-                                            <div id="scrollt-text"><b class="teamcardsub">Group Member </b>
-                                                <b class="teamcardsub2">Undergraduate
-                                                    :</b> Sri Lanka Institute of Information Technology
-                                                <b class="teamcardsub2">Department
-                                                    :</b> Information Technology
-                                            </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team  position-relative overflow-hidden border-0 mb-5">
+                        <img class="card-img-top" src="img/team/2.png" alt="">
+                        <div class="card-body text-center p-0">
+                            <div class="team-text d-flex flex-column justify-content-center bg-secondary">
+                                <h5 class="font-weight-bold">Hemasiri S.W.H.P</h5>
+                                <span>
+                                    <div id="scrollt-container">
+                                        <div id="scrollt-text"><b class="teamcardsub">Group Member </b>
+                                            <b class="teamcardsub2">Undergraduate
+                                                :</b> Sri Lanka Institute of Information Technology
+                                            <b class="teamcardsub2">Department
+                                                :</b> Information Technology
                                         </div>
-                                    </span>
-                                </div>
-                                <div class="team-social d-flex align-items-center justify-content-center bg-primary">
-                                    <a class="btn btn-outline-dark btn-social mr-2"
-                                        href="mailto:it20036270@my.sliit.lk"><i class="fas fa-envelope"></i></a>
-                                    <a class="btn btn-outline-dark btn-social mr-2"
-                                        href="https://www.linkedin.com/in/prabhath-hemasiri-2aa0b9226/"><i
-                                            class="fab fa-linkedin-in"></i></a>
-                                </div>
+                                    </div>
+                                </span>
+                            </div>
+                            <div class="team-social d-flex align-items-center justify-content-center bg-primary">
+                                <a class="btn btn-outline-dark btn-social mr-2" href="mailto:it20036270@my.sliit.lk"><i
+                                        class="fas fa-envelope"></i></a>
+                                <a class="btn btn-outline-dark btn-social mr-2"
+                                    href="https://www.linkedin.com/in/prabhath-hemasiri-2aa0b9226/"><i
+                                        class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team  position-relative overflow-hidden border-0 mb-5">
-                            <img class="card-img-top" src="img/team/3.jpg" alt="">
-                            <div class="card-body text-center p-0">
-                                <div class="team-text d-flex flex-column justify-content-center bg-secondary">
-                                    <h5 class="font-weight-bold">Nawanjana M.H</h5>
-                                    <span>
-                                        <div id="scrollt-container">
-                                            <div id="scrollt-text"><b class="teamcardsub">Group Member </b>
-                                                <b class="teamcardsub2">Undergraduate
-                                                    :</b> Sri Lanka Institute of Information Technology
-                                                <b class="teamcardsub2">Department
-                                                    :</b> Software Engineering
-                                            </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team  position-relative overflow-hidden border-0 mb-5">
+                        <img class="card-img-top" src="img/team/3.jpg" alt="">
+                        <div class="card-body text-center p-0">
+                            <div class="team-text d-flex flex-column justify-content-center bg-secondary">
+                                <h5 class="font-weight-bold">Nawanjana M.H</h5>
+                                <span>
+                                    <div id="scrollt-container">
+                                        <div id="scrollt-text"><b class="teamcardsub">Group Member </b>
+                                            <b class="teamcardsub2">Undergraduate
+                                                :</b> Sri Lanka Institute of Information Technology
+                                            <b class="teamcardsub2">Department
+                                                :</b> Software Engineering
                                         </div>
-                                    </span>
-                                </div>
-                                <div class="team-social d-flex align-items-center justify-content-center bg-primary">
-                                    <a class="btn btn-outline-dark btn-social mr-2"
-                                        href="mailto:it20022006@my.sliit.lk"><i class="fas fa-envelope"></i></a>
-                                    <a class="btn btn-outline-dark btn-social mr-2"
-                                        href="https://www.linkedin.com/in/hiruni-nawanjana-806756221/"><i
-                                            class="fab fa-linkedin-in"></i></a>
-                                </div>
+                                    </div>
+                                </span>
+                            </div>
+                            <div class="team-social d-flex align-items-center justify-content-center bg-primary">
+                                <a class="btn btn-outline-dark btn-social mr-2" href="mailto:it20022006@my.sliit.lk"><i
+                                        class="fas fa-envelope"></i></a>
+                                <a class="btn btn-outline-dark btn-social mr-2"
+                                    href="https://www.linkedin.com/in/hiruni-nawanjana-806756221/"><i
+                                        class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team  position-relative overflow-hidden border-0 mb-5">
-                            <img class="card-img-top" src="img/team/4.jpg" alt="">
-                            <div class="card-body text-center p-0">
-                                <div class="team-text d-flex flex-column justify-content-center bg-secondary">
-                                    <h5 class="font-weight-bold">Premarathne H.M.H.D</h5>
-                                    <span>
-                                        <div id="scrollt-container">
-                                            <div id="scrollt-text"><b class="teamcardsub">Group Member </b>
-                                                <b class="teamcardsub2">Undergraduate
-                                                    :</b> Sri Lanka Institute of Information Technology
-                                                <b class="teamcardsub2">Department
-                                                    :</b>Data Science
-                                            </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team  position-relative overflow-hidden border-0 mb-5">
+                        <img class="card-img-top" src="img/team/4.jpg" alt="">
+                        <div class="card-body text-center p-0">
+                            <div class="team-text d-flex flex-column justify-content-center bg-secondary">
+                                <h5 class="font-weight-bold">Premarathne H.M.H.D</h5>
+                                <span>
+                                    <div id="scrollt-container">
+                                        <div id="scrollt-text"><b class="teamcardsub">Group Member </b>
+                                            <b class="teamcardsub2">Undergraduate
+                                                :</b> Sri Lanka Institute of Information Technology
+                                            <b class="teamcardsub2">Department
+                                                :</b>Data Science
                                         </div>
-                                    </span>
-                                </div>
-                                <div class="team-social d-flex align-items-center justify-content-center bg-primary">
-                                    <a class="btn btn-outline-dark btn-social mr-2"
-                                        href="mailto:it20006334@my.sliit.lk"><i class="fas fa-envelope"></i></a>
-                                    <a class="btn btn-outline-dark btn-social mr-2"
-                                        href="https://www.linkedin.com/in/hasintha-premarathne/"><i
-                                            class="fab fa-linkedin-in"></i></a>
-                                </div>
+                                    </div>
+                                </span>
+                            </div>
+                            <div class="team-social d-flex align-items-center justify-content-center bg-primary">
+                                <a class="btn btn-outline-dark btn-social mr-2" href="mailto:it20006334@my.sliit.lk"><i
+                                        class="fas fa-envelope"></i></a>
+                                <a class="btn btn-outline-dark btn-social mr-2"
+                                    href="https://www.linkedin.com/in/hasintha-premarathne/"><i
+                                        class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <!-- Team End -->
 
@@ -1287,7 +1342,7 @@
                             <div class="bg-primary text-dark text-center p-4">
                                 <h4 class="m-0">Vison Mate <span class="blinkingH">!</span></h4>
                             </div>
-                            <img src="./img/gfgvhb_logo.png" style="height: 70%;width: 445px;">
+                            <img src="./img/gfgvhb_logo.png" style="height: 70%;width:100% ;">
                         </div>
                         <div class="col-lg-7">
                             <h6 class="text-primary text-uppercase font-weight-bold">Contact Us</h6>
@@ -1320,7 +1375,7 @@
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div>
-                                        <button class="btn btn-primary py-3 px-4" type="submit" style="width: 576px;"
+                                        <button class="btn btn-primary py-3 px-4" type="submit"
                                             id="sendMessageButton">Submit</button>
                                     </div>
                                 </form>

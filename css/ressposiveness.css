@@ -1,0 +1,72 @@
+@media screen and (max-width: 991px) {
+
+    /* CSS rules for screens wider than 768px */
+    .containerHLEFT {
+        display: none;
+    }
+
+    .containerH {
+        width: 100%;
+        min-height: fit-content;
+        padding: 50% 0 2% 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 1.5;
+        transition: 0.5s;
+
+    }
+
+    .heder_img {
+        min-height: fit-content;
+    }
+
+    .galleryRPROB {
+        display: none;
+    }
+
+    .containerT {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        max-width: fit-content;
+    }
+
+    .tc{
+        display: none;
+    }
+
+    .imgT {
+        width: 105%;
+        height: fit-content;
+        margin-bottom: 20px;
+        margin-top: 30px;
+
+    }
+
+    .tc1{
+        margin-bottom: 20px;
+    }
+    .container-d{
+        width: 383px;
+        height: 45px;
+    }
+    .card-d{
+
+    }
+    .db{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .tc1 {
+        display: none;
+
+    }
+  
+}

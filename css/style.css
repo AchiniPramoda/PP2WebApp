@@ -5,14 +5,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
- .myboder{
-  margin-left: 2rem;
-    border: 1px solid #01acc2;
-    margin-top: -1rem;
-    padding: 3rem;
-    text-align: center;
-    margin-bottom: 3rem;
-}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -10072,7 +10065,7 @@ p,
   margin: 0;
   padding: 0;
   list-style-type: none;
-  width: 576px;
+ width: 100%;
   background-color: red;
   color:white;
 }
