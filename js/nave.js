@@ -6,81 +6,163 @@ const aboutusLink = document.getElementById("aboutus-link");
 const downloadsLink = document.getElementById("downloads-link");
 const arhivementsLink = document.getElementById("arhivements-link");
 const contactusLink = document.getElementById("contactus-link");
+const ls = document.getElementById("ls");
+const rg = document.getElementById("rg");
+const ps = document.getElementById("ps");
+const ro = document.getElementById("ro");
+const m = document.getElementById("m");
+const t = document.getElementById("t");
+const d = document.getElementById("d");
+const p = document.getElementById("p");
+
+ls.addEventListener("click", function () {
+    projectscopeLink.classList.add("aclink");
+    homeLink.classList.remove("aclink");
+    milestonnesLink.classList.remove("aclink");
+    downloadsLink.classList.remove("aclink");
+    aboutusLink.classList.remove("aclink");
+    arhivementsLink.classList.remove("aclink");
+    contactusLink.classList.remove("aclink");
+});
+rg.addEventListener("click", function () {
+    projectscopeLink.classList.add("aclink");
+    homeLink.classList.remove("aclink");
+    milestonnesLink.classList.remove("aclink");
+    downloadsLink.classList.remove("aclink");
+    aboutusLink.classList.remove("aclink");
+    arhivementsLink.classList.remove("aclink");
+    contactusLink.classList.remove("aclink");
+});
+ps.addEventListener("click", function () {
+    projectscopeLink.classList.add("aclink");
+    homeLink.classList.remove("aclink");
+    milestonnesLink.classList.remove("aclink");
+    downloadsLink.classList.remove("aclink");
+    aboutusLink.classList.remove("aclink");
+    arhivementsLink.classList.remove("aclink");
+    contactusLink.classList.remove("aclink");
+});
+ro.addEventListener("click", function () {
+    projectscopeLink.classList.add("aclink");
+    homeLink.classList.remove("aclink");
+    milestonnesLink.classList.remove("aclink");
+    downloadsLink.classList.remove("aclink");
+    aboutusLink.classList.remove("aclink");
+    arhivementsLink.classList.remove("aclink");
+    contactusLink.classList.remove("aclink");
+});
+m.addEventListener("click", function () {
+    projectscopeLink.classList.add("aclink");
+    homeLink.classList.remove("aclink");
+    milestonnesLink.classList.remove("aclink");
+    downloadsLink.classList.remove("aclink");
+    aboutusLink.classList.remove("aclink");
+    arhivementsLink.classList.remove("aclink");
+    contactusLink.classList.remove("aclink");
+});
+t.addEventListener("click", function () {
+    projectscopeLink.classList.add("aclink");
+    homeLink.classList.remove("aclink");
+    milestonnesLink.classList.remove("aclink");
+    downloadsLink.classList.remove("aclink");
+    aboutusLink.classList.remove("aclink");
+    arhivementsLink.classList.remove("aclink");
+    contactusLink.classList.remove("aclink");
+});
 
 homeLink.addEventListener("click", function () {
-    homeLink.classList.add("active-link");
-    projectscopeLink.classList.remove("active-link");
-    milestonnesLink.classList.remove("active-link");
-    downloadsLink.classList.remove("active-link");
-    aboutusLink.classList.remove("active-link");
-    arhivementsLink.classList.remove("active-link");
-    contactusLink.classList.remove("active-link");
+    homeLink.classList.add("aclink");
+    projectscopeLink.classList.remove("aclink");
+    milestonnesLink.classList.remove("aclink");
+    downloadsLink.classList.remove("aclink");
+    aboutusLink.classList.remove("aclink");
+    arhivementsLink.classList.remove("aclink");
+    contactusLink.classList.remove("aclink");
 });
+
 projectscopeLink.addEventListener("click", function () {
-    projectscopeLink.classList.add("active-link");
-    homeLink.classList.remove("active-link");
-    milestonnesLink.classList.remove("active-link");
-    downloadsLink.classList.remove("active-link");
-    aboutusLink.classList.remove("active-link");
-    arhivementsLink.classList.remove("active-link");
-    contactusLink.classList.remove("active-link");
+    projectscopeLink.classList.add("aclink");
+    homeLink.classList.remove("aclink");
+    milestonnesLink.classList.remove("aclink");
+    downloadsLink.classList.remove("aclink");
+    aboutusLink.classList.remove("aclink");
+    arhivementsLink.classList.remove("aclink");
+    contactusLink.classList.remove("aclink");
 });
 milestonnesLink.addEventListener("click", function () {
-    milestonnesLink.classList.add("active-link");
-    projectscopeLink.classList.remove("active-link");
-    homeLink.classList.remove("active-link");
-    downloadsLink.classList.remove("active-link");
-    aboutusLink.classList.remove("active-link");
-    arhivementsLink.classList.remove("active-link");
-    contactusLink.classList.remove("active-link");
+    milestonnesLink.classList.add("aclink");
+    projectscopeLink.classList.remove("aclink");
+    homeLink.classList.remove("aclink");
+    downloadsLink.classList.remove("aclink");
+    aboutusLink.classList.remove("aclink");
+    arhivementsLink.classList.remove("aclink");
+    contactusLink.classList.remove("aclink");
 });
 aboutusLink.addEventListener("click", function () {
-    milestonnesLink.classList.remove("active-link");
-    projectscopeLink.classList.remove("active-link");
-    homeLink.classList.remove("active-link");
-    downloadsLink.classList.remove("active-link");
-    aboutusLink.classList.add("active-link");
-    arhivementsLink.classList.remove("active-link");
-    contactusLink.classList.remove("active-link");
+    milestonnesLink.classList.remove("aclink");
+    projectscopeLink.classList.remove("aclink");
+    homeLink.classList.remove("aclink");
+    downloadsLink.classList.remove("aclink");
+    aboutusLink.classList.add("aclink");
+    arhivementsLink.classList.remove("aclink");
+    contactusLink.classList.remove("aclink");
 });
 downloadsLink.addEventListener("click", function () {
-    milestonnesLink.classList.remove("active-link");
-    projectscopeLink.classList.remove("active-link");
-    homeLink.classList.remove("active-link");
-    downloadsLink.classList.add("active-link");
-    aboutusLink.classList.remove("active-link");
-    arhivementsLink.classList.remove("active-link");
-    contactusLink.classList.remove("active-link");
+    milestonnesLink.classList.remove("aclink");
+    projectscopeLink.classList.remove("aclink");
+    homeLink.classList.remove("aclink");
+    downloadsLink.classList.add("aclink");
+    aboutusLink.classList.remove("aclink");
+    arhivementsLink.classList.remove("aclink");
+    contactusLink.classList.remove("aclink");
+});
+p.addEventListener("click", function () {
+    milestonnesLink.classList.remove("aclink");
+    projectscopeLink.classList.remove("aclink");
+    homeLink.classList.remove("aclink");
+    downloadsLink.classList.add("aclink");
+    aboutusLink.classList.remove("aclink");
+    arhivementsLink.classList.remove("aclink");
+    contactusLink.classList.remove("aclink");
+});
+d.addEventListener("click", function () {
+    milestonnesLink.classList.remove("aclink");
+    projectscopeLink.classList.remove("aclink");
+    homeLink.classList.remove("aclink");
+    downloadsLink.classList.add("aclink");
+    aboutusLink.classList.remove("aclink");
+    arhivementsLink.classList.remove("aclink");
+    contactusLink.classList.remove("aclink");
 });
 arhivementsLink.addEventListener("click", function () {
-    milestonnesLink.classList.remove("active-link");
-    projectscopeLink.classList.remove("active-link");
-    homeLink.classList.remove("active-link");
-    downloadsLink.classList.remove("active-link");
-    aboutusLink.classList.remove("active-link");
-    arhivementsLink.classList.add("active-link");
-    contactusLink.classList.remove("active-link");
+    milestonnesLink.classList.remove("aclink");
+    projectscopeLink.classList.remove("aclink");
+    homeLink.classList.remove("aclink");
+    downloadsLink.classList.remove("aclink");
+    aboutusLink.classList.remove("aclink");
+    arhivementsLink.classList.add("aclink");
+    contactusLink.classList.remove("aclink");
 });
 contactusLink.addEventListener("click", function () {
-    milestonnesLink.classList.remove("active-link");
-    projectscopeLink.classList.remove("active-link");
-    homeLink.classList.remove("active-link");
-    downloadsLink.classList.remove("active-link");
-    aboutusLink.classList.remove("active-link");
-    arhivementsLink.classList.remove("active-link");
-    contactusLink.classList.add("active-link");
+    milestonnesLink.classList.remove("aclink");
+    projectscopeLink.classList.remove("aclink");
+    homeLink.classList.remove("aclink");
+    downloadsLink.classList.remove("aclink");
+    aboutusLink.classList.remove("aclink");
+    arhivementsLink.classList.remove("aclink");
+    contactusLink.classList.add("aclink");
 });
 
 const presebtetionLink = document.getElementById("pecente-link");
 const documentLink = document.getElementById("document-link");
 documentLink.addEventListener("click", function () {
-    milestonnesLink.classList.remove("active-link");
-    projectscopeLink.classList.remove("active-link");
-    homeLink.classList.remove("active-link");
-    downloadsLink.classList.add("active-link");
-    aboutusLink.classList.remove("active-link");
-    arhivementsLink.classList.remove("active-link");
-    contactusLink.classList.remove("active-link");
+    milestonnesLink.classList.remove("aclink");
+    projectscopeLink.classList.remove("aclink");
+    homeLink.classList.remove("aclink");
+    downloadsLink.classList.add("aclink");
+    aboutusLink.classList.remove("aclink");
+    arhivementsLink.classList.remove("aclink");
+    contactusLink.classList.remove("aclink");
 });
 
 // Function to scroll smoothly to a target

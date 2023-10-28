@@ -54,49 +54,54 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
-                <div class="navbar-nav m-auto py-0">
-                    <a  onclick="smoothScrollTo('#header')" id="home-link">Home</a>
-                    <div Class="navDrop">
+                <div class="navbar-nav m-auto py-0 navstcus">
+                    <a onclick="smoothScrollTo('#header')"  id="home-link">Home</a>
+                    <div Class="navDrop ">
                         <ul>
-                            <li><a  onclick="smoothScrollTo('#literatureSurvey')"
+                            <li><a onclick="smoothScrollTo('#literatureSurvey')"
                                     id="projectscope-link">Project_Scope</a>
                                 <ul>
-                                    <li class="submenumenutitelN navFirstDrop"><a  onclick="smoothScrollTo('#literatureSurvey')"
-                                            class="">Literature Survey</a></li>
-                                    <li class="submenumenutitelN"><a  onclick="smoothScrollTo('#researchgap')" class="">Research Gap</a></li>
-                                    <li class="submenumenutitelN"><a onclick="smoothScrollTo('#researchproblemsolution')" class="">Research
+                                    <li class="submenumenutitelN navFirstDrop"><a
+                                            onclick="smoothScrollTo('#literatureSurvey')" id="ls">Literature Survey</a>
+                                    </li>
+                                    <li class="submenumenutitelN"><a onclick="smoothScrollTo('#researchgap')"
+                                            id="rg">Research Gap</a></li>
+                                    <li class="submenumenutitelN"><a
+                                            onclick="smoothScrollTo('#researchproblemsolution')" id="ps">Research
                                             Problem &
                                             Solution</a></li>
-                                    <li class="submenumenutitelN"><a  onclick="smoothScrollTo('#researchobjectives')" class="">Research
+                                    <li class="submenumenutitelN"><a onclick="smoothScrollTo('#researchobjectives')"
+                                            id="ro">Research
                                             Objectives</a>
                                     </li>
-                                    <li class="submenumenutitelN"><a  onclick="smoothScrollTo('#methodology')" class="">Methodology</a></li>
-                                    <li class="submenumenutitelN navLastDrop"><a  onclick="smoothScrollTo('#technologies')" 
-                                            class="">Technologies</a></li>
+                                    <li class="submenumenutitelN"><a onclick="smoothScrollTo('#methodology')"
+                                           id="m" class="">Methodology</a></li>
+                                    <li class="submenumenutitelN navLastDrop"><a
+                                            onclick="smoothScrollTo('#technologies')" id="t">Technologies</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </div>
 
-                    <a   onclick="smoothScrollTo('#milestones')" id="milestonnes-link">Milestones</a>
+                    <a onclick="smoothScrollTo('#milestones')" id="milestonnes-link">Milestones</a>
                     <div Class="navDrop">
                         <ul>
                             <li><a onclick="smoothScrollTo('#downloads')" id="downloads-link">Downloads</a>
                                 <ul>
-                                    <li class="submenumenutitelN navFirstDrop"><a  onclick="smoothScrollTo('#downloads')"
-                                            id="document-link">Documents</a></li>
-                                    <li class="submenumenutitelN navLastDrop"><a onclick="smoothScrollTo('#presentations')"
-                                            class="">Presentations</a></li>
+                                    <li class="submenumenutitelN navFirstDrop"><a onclick="smoothScrollTo('#downloads')"
+                                            id="d">Documents</a></li>
+                                    <li class="submenumenutitelN navLastDrop"><a
+                                            onclick="smoothScrollTo('#presentations')" id="p">Presentations</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </div>
 
-                    <a  onclick="smoothScrollTo('#about')" id="aboutus-link">About</a>
-                    <a  onclick="smoothScrollTo('#achievements')" id="arhivements-link">Achievements</a>
-                    <a  onclick="smoothScrollTo('#contactus')" id="contactus-link">Contact</a>
+                    <a onclick="smoothScrollTo('#about')" id="aboutus-link">About</a>
+                    <a onclick="smoothScrollTo('#achievements')" id="arhivements-link">Achievements</a>
+                    <a onclick="smoothScrollTo('#contactus')" id="contactus-link">Contact</a>
                 </div>
-                <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block">Get A Quote</a>
+                <a onclick="smoothScrollTo('#vedeo')" class="btn btn-primary py-2 px-4 d-none d-lg-block">VIDEO</a>
             </div>
         </nav>
     </div>
@@ -131,7 +136,6 @@
         </div>
     </div>
     <!-- Header End -->
-
 
     <!-- Project Scope Start -->
 
@@ -365,7 +369,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5" id="vedeo">
         <div class="container container_cus1 ">
             <div class="row">
                 <div class="col-lg-5 pb-4 pb-lg-0">
@@ -599,6 +603,8 @@
         </div>
     </div>
     <!-- Technology End -->
+
+    <!-- project scoop end -->
 
     <!-- Milestones start -->
     <div id="milestones" class="briteAndRoutbadding1">
@@ -1279,7 +1285,7 @@
                     <div class="row">
                         <div class="col-lg-5 pb-4 pb-lg-0">
                             <div class="bg-primary text-dark text-center p-4">
-                                <h4 class="m-0">Vison Mate !</h4>
+                                <h4 class="m-0">Vison Mate <span class="blinkingH">!</span></h4>
                             </div>
                             <img src="./img/gfgvhb_logo.png" style="height: 70%;width: 445px;">
                         </div>
